@@ -13,9 +13,54 @@ span{
 #header-container{
     height: 80px;
     line-height: 80px;
+    background-color: white;
 }
 
 #logo{
     margin: 10px 10px 10px 10px;
     vertical-align: middle;
+}
+
+body{
+    background-color: hsl(200deg 20% 97%);
+    /* background-color: blueviolet; */
+}
+
+.main-container{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 18%;
+}
+
+.mini-header{
+    height: 10%;
+    background-color: white;
+}
+
+#add-task{
+    background-color: hsl(204deg 86% 61%);
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-width: 0;
+}
+
+#add-section{
+    background-color: white;
+    border-radius: 8px;
+    color: lightslategray;
+    height: 30px;
+    width: 80px;
+    border-color: lightslategray ;
+}
+
+hr{
+    background-color: hsl(200deg 20% 97%);
+    height: 3px;
+    border: none;
 }
