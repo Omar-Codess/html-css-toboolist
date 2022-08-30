@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-span{
+#title{
     font-size: 3rem;
     vertical-align: middle;
+    font-weight: 700;
 }
 
 #header-container{
@@ -21,10 +22,6 @@ span{
     vertical-align: middle;
 }
 
-body{
-    background-color: hsl(200deg 20% 97%);
-    /* background-color: blueviolet; */
-}
 
 .main-container{
     width: 900px;
@@ -63,4 +60,110 @@ hr{
     background-color: hsl(200deg 20% 97%);
     height: 3px;
     border: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.triangolo{
+    font-size: 30px;
+    margin-right: -6px;
+}
+
+body{
+    background-color: hsl(200deg 20% 97%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: darkslategrey;
+    margin-bottom: 20px;
+}
+
+.check{
+    color: lightgreen ;
+    height: 10px;
+    width: 10px;
+}
+
+.cross{
+    color: red;
+}
+
+.lists-container{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.list-button-blue{
+    background-color: hsl(204deg 86% 61%);
+    border-radius: 8px;
+    color: white;
+    border-width: 0;
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.list-button-purple{
+    background-color: purple;
+    border-radius: 8px;
+    color: white;
+    border-width: 0;
+    font-size: 12px;
+    width: 70px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.list-button-green{
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    border-width: 0;
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.list-button-orange{
+    background-color: orange;
+    border-radius: 8px;
+    color: white;
+    border-width: 0;
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.list-button-pink{
+    background-color: pink;
+    border-radius: 8px;
+    color: white;
+    border-width: 0;
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.list-button-greenyellow{
+    background-color: greenyellow;
+    border-radius: 8px;
+    color: white;
+    border-width: 0;
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+li{
+    font-weight:400;
 }
